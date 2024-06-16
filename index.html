@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131: Dynamic Web Fundamentals - Edison Garcia</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals course by Edison Garcia. This page covers HTML, CSS, and JavaScript basics.">
+    <meta name="author" content="Edison Garcia">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Edison Garcia</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn Profile</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+                        target="_blank">Favorite Scripture</a></li>
+                <li><a href="#" target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="HTML Example Image">
+            <p>Hi! My name is Edison Garcia and I am from Saskatchewan, Canada. I am currently working as a Personal Banker in one of the
+            five big banks in Canada. I'm currently immersed in the exciting journey of pursuing further education with the aim of
+            transitioning into a new and fulfilling career. I am excited about the prospect of combining my academic
+            endeavors with my love for travel, creating a unique blend of experiences that will shape my future endeavors.</p>
+            <hr>
+            <img src="images/canada.jpg" alt="HTML Example Image">
+            <p> Saskatchewan is a Canadian province that borders the United States to the south. Grassland covers its southern
+                plains, and to the north are rugged rock of the Canadian Shield plateau, coniferous forests, rivers and lakes.</p>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+                <li><a href="https://picsum.photos" target="_blank">Lorem Picsum Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Edison Garcia, Saskatchewan Canada.</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script>
+        // JavaScript to populate the current year
+        document.getElementById('currentyear').textContent = new Date().getFullYear();
+
+        // JavaScript to populate the last modified date
+        document.getElementById('lastModified').textContent = 'Last Modified: ' + document.lastModified;
+    </script>
+</body>
+
+</html>
