@@ -55,6 +55,10 @@ nav {
     text-decoration: none;
 }
 
+.menu-links li a:hover {
+    color: yellow;
+}
+
 main {
     flex: 1;
     padding: 20px;

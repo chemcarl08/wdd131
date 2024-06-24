@@ -11,6 +11,10 @@
     display: none;
 }
 
+.menu-links li a:hover {
+    color: yellow;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
