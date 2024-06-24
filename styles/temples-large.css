@@ -1,0 +1,28 @@
+.menu-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-links li {
+    margin: 0 10px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    flex: 1 0 30%;
+    margin: 10px;
+}
+
+main h2 {
+    text-align: center;
+    width: 100%;
+}
