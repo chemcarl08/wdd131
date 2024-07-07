@@ -1,4 +1,11 @@
 @media (max-width: 767px) {
+:root {
+        --primary-color: #d32f2f;
+        --secondary-color: #4CAF50;
+        --font-family: 'Roboto', sans-serif;
+        --base-font-size: 14px;
+    }
+
     body {
         font-size: 14px;
         margin: 0;
@@ -65,6 +72,16 @@
         content: url('images/weather.svg');
         display: inline-block;
         margin-right: 8px;
+    }
+
+    .data h2::after,
+    .weather h2::after {
+        content: '';
+        display: block;
+        width: 50%;
+        height: 2px;
+        background-color: var(--secondary-color);
+        margin: 8px auto 0 auto;
     }
 
     .weather-icon {
