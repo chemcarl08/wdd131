@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada</title>
+    <meta name="description"
+        content="Edison Garcia, WDD 131 - Dynamic Web Fundamentals: The purpose of the page is to show the different temples in the Philippines including one from Taiwan.">
+    <meta name="author" content="Edison Garcia" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place_mobile.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Canada</h1>
+        </header>
+        <main class="main-content">
+            <picture>
+                <source media="(max-width: 767px)" srcset="images/canada_pic.webp">
+                <source media="(min-width: 768px) and (max-width: 1024px)" srcset="images/canada_pic.webp">
+                <source media="(min-width: 1025px)" srcset="images/canada_pic.webp">
+                <img src="images/canada_pic.webp" alt="Canada">
+            </picture>
+            <div class="content-wrapper">
+                <div class="data">
+                    <h2>Data</h2>
+                    <ul>
+                        <li><strong>Area:</strong> 9,984,670 sq km</li>
+                        <li><strong>Population:</strong> 39,107,046</li>
+                        <li><strong>Capital:</strong> Ottawa</li>
+                        <li><strong>Languages:</strong> English, French</li>
+                        <li><strong>Currency:</strong> Canadian Dollars</li>
+                        <li><strong>Time Zone:</strong> GMT-6</li>
+                        <li><strong>Calling Code:</strong> +306</li>
+                        <li><strong>Internet TLD:</strong> .ca</li>
+                    </ul>
+                </div>
+                <div class="weather">
+                    <h2>Weather</h2>
+                    <img src="images/weather.svg" alt="Weather icon" class="weather-icon">
+                    <ul>
+                        <li><strong>Temperature:</strong> 8°C</li>
+                        <li><strong>Conditions:</strong> Partly Cloudy</li>
+                        <li><strong>Wind:</strong> 5 km/h</li>
+                        <li id="windChill"><strong>Wind Chill:</strong>N/A</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; <span id="currentyear"></span> Edison Garcia, Saskatchewan Canada.</p>
+            <p id="lastModified"></p>
+        </footer>
+    </div>
+    <script src="scripts/place.js" defer></script>
+</body>
+
+</html>
