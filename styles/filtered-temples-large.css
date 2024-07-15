@@ -1,0 +1,59 @@
+.menu-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-links li {
+    margin: 0 10px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-links li a:hover {
+    color: yellow;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main h2 {
+    text-align: center;
+    width: 100%;
+}
+
+figure {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px #aaa;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+figure figcaption {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+figure figcaption strong {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+figure figcaption em {
+    display: block;
+    font-size: 1.2em;
+    color: #555;
+}
