@@ -89,7 +89,7 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #2d58e7;
     color: white;
     border: none;
     cursor: pointer;
@@ -97,14 +97,14 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #3023e0;
 }
 
 footer {
     text-align: center;
     padding: 10px;
     background-color: rgb(241, 35, 35);
-    color: white;
+    color: rgb(24, 1, 1);
     position: fixed;
     bottom: 0;
     width: 100%;
