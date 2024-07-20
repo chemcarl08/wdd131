@@ -4,11 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanks Page</title>
+    <title>Review Summary</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the review count from localStorage
+            const reviewCount = localStorage.getItem('reviewCount') || 0;
+
+            // Display the review count message
+            const reviewMessage = reviewCount > 0
+                ? "You have successfully completed a review. Thank you for your feedback!"
+                : "You have not completed any reviews yet.";
+
+            document.getElementById('reviewMessage').textContent = reviewMessage;
+        });
+    </script>
 </head>
 
 <body>
-    <h1>Confirmation that you submitted the form</h1>
+    <header>
+        <h1>Thank You for Your Review!</h1>
+    </header>
+
+    <main>
+        <p id="reviewMessage"></p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Edison Garcia, Saskatchewan Canada.</p>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Set the current year in the footer
+                document.getElementById("currentyear").textContent = new Date().getFullYear();
+            });
+        </script>
+    </footer>
 </body>
 
 </html>
