@@ -1,0 +1,315 @@
+@media (max-width: 767px) {
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header img {
+        width: 150px;
+        margin-left: 1rem;
+    }
+
+    ul.menu-links {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #menuToggle {
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: black;
+        cursor: pointer;
+        width: 100%;
+        text-align: right;
+        padding: .25rem 2vw;
+    }
+
+    ul.menu-links.active {
+        display: block;
+    }
+
+    #hero .hero-content {
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 1em;
+        text-align: center;
+        margin: 2em;
+    }
+
+    main {
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    main.discover-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .sidebar {
+        background-color: #eee;
+        padding: 20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .event {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .photo-gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    #site-purpose,
+    #featured-image,
+    #events-issues {
+        margin-bottom: 2em;
+    }
+
+    #site-purpose h2,h1,
+    #events-issues .events h2,
+    #events-issues .issues h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 0.5em;
+    }
+
+    #site-purpose p {
+        margin: 0.5em 0;
+    }
+
+    #featured-image img,
+    .event img,
+    .issue img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    .top-image {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    footer,
+    footer img {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    header {
+        position: relative;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    figcaption {
+        text-align: center;
+        padding: 5px;
+        background-color: #eee;
+    }
+
+    /*join.html*/
+    .join-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+     }
+    
+    #membership-form,
+    #membership-benefits {
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    #membership-form h2,
+    #membership-benefits h2 {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    #membership-form label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    #membership-form input[type="text"],
+    #membership-form input[type="email"],
+    #membership-form input[type="tel"],
+    #membership-form textarea,
+    #membership-form select {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    #membership-form input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #8b4513;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #membership-form input[type="submit"]:hover {
+        background-color: #5a2b0c;
+    }
+    
+    .membership-level {
+        background-size: cover;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .membership-level h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    
+    .membership-level.free {
+        color: black;
+    }
+    
+    .membership-level.bronze {
+        color: #c7340f;
+    }
+    
+    .membership-level.silver {
+        color: rgb(39, 24, 245);
+    }
+    
+    .membership-level.gold {
+        color: rgb(6, 56, 63);
+    }
+
+/* Directory.html*/
+    #view-toggle {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #view-toggle button {
+        padding: 10px 20px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    #directory {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #directory.grid {
+        flex-direction: row;
+    }
+
+    #directory.list {
+        flex-direction: column;
+    }
+
+    #directory.grid .member {
+        display: inline-block;
+        width: 100%;
+        margin: 1%;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+
+    #directory.list .member {
+        width: 100%;
+        margin: 10px 0;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #333;
+    }
+
+    #directory.list .member img {
+        display: none;
+    }
+
+    #directory img {
+        max-width: 100px;
+        max-height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    #directory h3 {
+        margin: 10px 0;
+    }
+
+    #directory p,
+    #directory a {
+        margin: 5px 0;
+    }
+
+    #directory.list .member-info {
+        flex-grow: 1;
+        margin-left: 20px;
+    }
+
+    #directory.list .member-info p,
+    #directory.list .member-info a {
+        margin-bottom: 10px;
+    }
+    }

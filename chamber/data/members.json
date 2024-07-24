@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Great West Pharmacy",
+        "address": "A-901 22nd St. West Saskatoon, SK S7M0R9",
+        "phone": "306-986-6660",
+        "website": "https://greatwestpharmacy.com",
+        "image": "greatwest.webp"
+    },
+    {
+        "name": "Planet Fitness",
+        "address": "810 Circle Drive E Saskatoon, SK S7K3T8",
+        "phone": "639-638-1090",
+        "website": "https://planetfitness.com",
+        "image": "planetfitness.webp"
+    },
+    {
+        "name": "Speach Language Network",
+        "address": "110-410 Jessop Ave Saskatoon, SK S7N2S5",
+        "phone": "306-933-3222",
+        "website": "https://speechlanguagenetwork.com",
+        "image": "sln.webp"
+    },
+    {
+        "name": "Hollistic Physiotherapy and Welness",
+        "address": "302 4th Ave N Saskatoon, Sk S7K1K7",
+        "phone": "306-373-0660",
+        "website": "https://hollisticphysiotherapy.com",
+        "image": "hollistic.webp"
+    },
+    {
+        "name": "Prairie Pelvic Health",
+        "address": "105-619 8th St E Saskatoon, SK S7H0R1",
+        "phone": "306-244-0244",
+        "website": "https://pririepelvic.com",
+        "image": "prairie.webp"
+    },
+    {
+        "name": "Bayshore Home Health",
+        "address": "8-130 Robin Cres Saskatoon, SK S7L6M7",
+        "phone": "306-652-3314",
+        "website": "https://bayshore.com",
+        "image": "bayshore.webp"
+    },
+    {
+        "name": "Donald Physiotherapy",
+        "address": "80-3211 Preston Ave Saskatoon, SK S7T1C9",
+        "phone": "306-933-3372",
+        "website": "https://donaldphysiotherapy.com",
+        "image": "donald.webp"
+    }
+]
